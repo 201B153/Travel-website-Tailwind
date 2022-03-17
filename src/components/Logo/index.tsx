@@ -12,5 +12,5 @@ const LogoContainer = styled.div`
 `;
 
 export function Logo() {
-  return <LogoContainer>TRAVELYA</LogoContainer>;
+  return <LogoContainer>SIH</LogoContainer>;
 }

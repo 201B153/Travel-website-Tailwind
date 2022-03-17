@@ -35,7 +35,7 @@ export default {
     },
     bmItemList: {
       color: "#b8b7ad",
-      padding: "0.8em",
+      padding: "4.8em",
     },
     bmItem: {
       display: "inline-block",

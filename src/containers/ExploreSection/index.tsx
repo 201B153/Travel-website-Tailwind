@@ -6,11 +6,11 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 //Images
-import BaliTempleImg from "../../images/bali-temple.jpg";
-import RiceTerraceImg from "../../images/rice-terrace.jpg";
-import ExoticBromoImg from "../../images/exotic-bromo.jpg";
-import MaleMaldivesImg from "../../images/male-maldives.jpg";
-import IceTeaImg from "../../images/ice-tea.jpg";
+import sample_image1 from "../../images/sample_image.jpg";
+import sample_image2 from "../../images/sample_image.jpg";
+import sample_image3 from "../../images/sample_image.jpg";
+import sample_image4 from "../../images/sample_image.jpg";
+import sample_image5 from "../../images/sample_image.jpg";
 
 const ExploreSectionContainer = tw(Element)`
     w-full
@@ -101,34 +101,31 @@ const Description = tw.p`
 export function ExploreSection() {
   return (
     <ExploreSectionContainer name="Explore">
-      <Title>Explore Travel Places</Title>
+      <Title>Headin2</Title>
       <SectionInfo>
-        View our tour package and find out more about the places we will visit
-        together on this journey to the beautifull of indonesia, exploring so
-        many historical and amazing locations with the group and having so much
-        fun.
+        Project_details_2
       </SectionInfo>
       <ExploreSectionWrapper>
         <Carousel dynamicHeight={false}>
           <Item>
-            <img src={BaliTempleImg} />
-            <Description>Bali Temple</Description>
+            <img src={sample_image1} />
+            <Description>imgae_Slide_show1</Description>
           </Item>
           <Item>
-            <img src={RiceTerraceImg} />
-            <Description>Rice Terrace</Description>
+            <img src={sample_image2} />
+            <Description>imgae_Slide_show2</Description>
           </Item>
           <Item>
-            <img src={ExoticBromoImg} />
-            <Description>Exotic Bromo</Description>
+            <img src={sample_image3} />
+            <Description>imgae_Slide_show3</Description>
           </Item>
           <Item>
-            <img src={MaleMaldivesImg} />
-            <Description>Male Maldives</Description>
+            <img src={sample_image4} />
+            <Description>imgae_Slide_show4</Description>
           </Item>
           <Item>
-            <img src={IceTeaImg} />
-            <Description>Ice Tea</Description>
+            <img src={sample_image5} />
+            <Description>imgae_Slide_show5</Description>
           </Item>
         </Carousel>
       </ExploreSectionWrapper>

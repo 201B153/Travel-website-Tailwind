@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { NavBar } from "../../components/NavBar";
-import BackgroundImage from "../../images/indonesia-high-res.jpg";
+import BackgroundImage from "../../images/background_image.jpg";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 const TopSectionContainer = styled.div`
@@ -25,7 +25,7 @@ const LandingSection = styled.div`
     `};
 
   background-image: url(${BackgroundImage}),
-    linear-gradient(to left, #005b9c, #b1d1b148);
+    linear-gradient(to left, #008b9c, #b32);
   background-size: cover;
   background-position: bottom 10% left;
   background-blend-mode: overlay;
@@ -125,18 +125,16 @@ export function TopSection() {
       <LandingSection>
         <NavBar />
         <InfoSection>
-          <FloatingText>WORLD</FloatingText>
+          <FloatingText>Main-Headng</FloatingText>
           <FloatingText style={{ display: "inline-flex" }}>
-            OF
+            for
             <OutlinedTextSvg viewBox="0 0 530 100">
-              <text>PARADISE,</text>
+              <text>SIH</text>
             </OutlinedTextSvg>
           </FloatingText>
-          <FloatingText>INDONESIA.</FloatingText>
+        
           <DescriptionText>
-            Let's explore of the third largest countries in the world, namely
-            indonesia. Enjoy 3 vacation packages at competitive prices and
-            strong soul.
+            Project_description
           </DescriptionText>
         </InfoSection>
         <ViewMoreButton>

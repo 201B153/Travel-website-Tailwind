@@ -38,7 +38,7 @@ const NavItems = tw.ul`
 
 const NavItem = tw.li`
     lg:mr-8
-    flex
+    flex space-x-10
     items-center
     justify-center
     min-h-full
@@ -64,10 +64,10 @@ export function NavBar() {
         <Link to="Home">Home</Link>
       </NavItem>
       <NavItem>
-        <Link to="Explore">Explore</Link>
+        <Link to="sun-heading2">Sub-heading2</Link>
       </NavItem>
       <NavItem>
-        <Link to="TravelPlaces">Travel Places</Link>
+        <Link to="Sub-heading3">Sub-heading3</Link>
       </NavItem>
     </NavItems>
   );

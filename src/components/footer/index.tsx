@@ -146,10 +146,10 @@ export function Footer() {
                 <Link to="Home">Home</Link>
               </MenuItem>
               <MenuItem>
-                <Link to="Explore">Explore</Link>
+                <Link to="Sub-heading2">sub-heading2</Link>
               </MenuItem>
               <MenuItem>
-                <Link to="TravelPlaces">Travel Places</Link>
+                <Link to="TSub-heading3">Sub-heading3</Link>
               </MenuItem>
             </Menu>
             <Menu>
@@ -160,38 +160,29 @@ export function Footer() {
                 <Link to="# ">Contact Us</Link>
               </MenuItem>
               <MenuItem>
-                <Link to="#">Our Travel Terms</Link>
-              </MenuItem>
-            </Menu>
-            <Menu>
-              <MenuItem>
-                <Link to="#">Company</Link>
-              </MenuItem>
-              <MenuItem>
-                <Link to="#">Careers</Link>
-              </MenuItem>
-              <MenuItem>
-                <Link to="#">Travel Guide</Link>
+                <Link to="#">terms and conditions</Link>
               </MenuItem>
             </Menu>
           </LeftInnerContainer>
           <RightInnerContainer>
             <SocialMedia>
               <Icon>
-                <SiFacebook size={25} />
+                <a href="facebook.com"><SiFacebook size={25} /></a>
               </Icon>
               <Icon>
-                <SiInstagram size={25} />
+                
+                <a href="instagram.com"><SiInstagram size={25} /></a>
               </Icon>
               <Icon>
-                <SiTwitter size={25} />
+                
+                <a href="twitter.com"><SiTwitter size={25} /></a>
               </Icon>
             </SocialMedia>
           </RightInnerContainer>
         </InnerContainer>
         <BottomSection>
           <Copyright>
-            © {new Date().getFullYear()} TRAVELYA. All rights reserved.
+            © {new Date().getFullYear()} Poppins. All rights reserved.
           </Copyright>
           <SmallText>
             <a href="#">Terms of Service</a>
